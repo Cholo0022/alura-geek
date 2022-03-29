@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/header.css" />
     <title>Alura Geek</title>
@@ -17,22 +18,39 @@
   <body>
     <header>
       <div class="head container">
-        <div class="haeder__logo-buscador">
-          <img
-            src="images/sports_esports_black_24dp 1.svg"
-            alt="Logo de Alura Geek"
-            class="head__logo"
-          /><img
-            src="images/Texto.svg"
-            alt="Texto del logo"
-            class="head__logo-texto"
-          />
-          <div class="head__buscador">
-            <input type="text" name="buscador" id="buscador" />
+        <div class="container__logo-search">
+          <div class="haeder__container-logo">
+            <img
+              src="images/sports_esports_black_24dp 1.svg"
+              alt="Logo de Alura Geek"
+              class="image__logo"
+            /><img
+              src="images/Texto.svg"
+              alt="Texto del logo"
+              class="image__logo-texto"
+            />
+          </div>
+          <div class="head__search">
+            <input
+              type="text"
+              name="buscador"
+              id="buscador"
+              placeholder="¿Que desea buscar?"
+            />
+            <img src="images/Icone-search.svg" alt="Lupa del buscador" />
           </div>
         </div>
-        <div class="btn__login">
+        <div class="head__btn-login">
           <button>Login</button>
+        </div>
+      </div>
+      <div class="head__image-banner">
+        <div class="head__container-texto-btn container">
+          <h1 class="head__titulo">Febrero Promocional</h1>
+          <p class="head__descripcion">
+            Productos seleccionados con 33% de descuento
+          </p>
+          <button class="head__btn">Ver Consolas</button>
         </div>
       </div>
     </header>
