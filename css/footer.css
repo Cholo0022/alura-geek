@@ -1,0 +1,128 @@
+.formulario__rodapie{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 64px;
+}
+
+.logo__link{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 576px);
+}
+
+footer .logo{
+    align-self: flex-start;
+    width: 176px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 560px);
+}
+
+.contacto h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.contacto label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    background: #ffffff;
+    margin: 16px 0px 0px 0px;
+    
+}
+
+.contacto input{
+    margin: 0px 0px 16px 0px;
+    height: 50px;
+    border: none;
+}
+
+.contacto textarea{
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2A2A2;
+}
+
+.contacto button{
+    padding: 16px;
+    color: #ffffff;
+    background: #2A7AE4;
+    margin: 8px 0px; 
+    border: none;
+    width: 144px;
+}
+
+.rodapie{
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    margin: 0;
+    padding: 32px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #464646;
+
+}
+
+@media screen and (max-width:768px) {
+    .formulario__rodapie{
+        padding: 32px;
+    }
+    .logo__link{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: calc(100% - 560px/2);
+    }
+
+    .link a{
+        margin: 24px 0px;
+    }
+    .contacto{
+        width: calc(100% - 560px/2);
+        justify-content:normal;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    .formulario__rodapie{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .logo__link{
+       width: 100%;
+       margin: auto;
+    }
+
+    .link {
+        align-items: center;
+    }
+
+    .contacto{
+        width:100%;
+        margin: auto;
+    }
+
+}

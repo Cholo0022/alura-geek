@@ -1,3 +1,106 @@
-.categoria__ficcion{
+.galeria__productos {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 64px;
+}
+
+.header__section{
     display: flex;
+    align-items: center;
+    color: #2A7AE4;
+    padding-top: 64px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.categoria__titulo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+
+}
+
+.header__section a {
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.linea_productos{
+    display: flex;
+    
+}
+
+.producto{
+    margin: 0px auto;
+}
+
+.producto__imagen {
+    margin: 8px 0px;
+    width: 176px;
+    height: 174px;
+}
+
+.producto__nombre{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.producto__precio{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+}
+
+.producto a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    margin: 8px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .producto:nth-child(5n){
+        display: none;
+    }
+    .producto:nth-child(6n){
+        display: none;
+    }
+
+    .producto__imagen {
+        width: 164px;
+        height: 174px;
+    }
+
+    .header__section img, h2{
+        margin: 0px 8px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .producto:nth-child(3n){
+        display: none;
+    }
+    .producto:nth-child(4n){
+        display: none;
+    }
+
+    .producto__imagen {
+        width: 156px;
+        height: 174px;
+    }
+
+    .header__section{
+        margin: 16px 0px;
+        padding: 0px;
+    }
+
+
 }
