@@ -111,6 +111,11 @@ color: #A2A2A2;
         padding: 0;
     }
 
+    footer .logo{
+        align-self: center;
+        width: 100px;
+    }
+
     .logo__link{
        width: 100%;
        margin: auto;
