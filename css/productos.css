@@ -98,8 +98,8 @@
     }
 
     .header__section{
-        margin: 16px 0px;
-        padding: 0px;
+        margin: 0px;
+        padding: 16px 0;
     }
 
     .categoria__titulo{
