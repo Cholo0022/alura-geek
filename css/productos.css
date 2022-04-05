@@ -102,5 +102,27 @@
         padding: 0px;
     }
 
+    .categoria__titulo{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .header__section a{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .header__section img {
+        width: 10.67px;
+        height: 10.67px;
+    }
+
+    .linea_productos a {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
 
 }
