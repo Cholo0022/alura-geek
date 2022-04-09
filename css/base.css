@@ -21,16 +21,13 @@ main{
 .logo{
     display: flex;
     align-items: center;
-    max-width: 176px;
-    width: 100%;
 }
 
 .image__logo{   
     width: 100%;
-    max-width: 50px;
-    max-height: 50px;
-    height: 100%;
-}
+    max-width: 176px;
+    
+} 
 
 footer{
     background: #EAF2FD;
