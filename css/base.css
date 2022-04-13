@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    color: #464646;
 }
 
 main{
@@ -17,8 +18,7 @@ main{
 
 .image__logo{   
     max-width: 176px;
-    width: 100%;
-    
+    width: 100%; 
 } 
 
 footer{
@@ -29,8 +29,7 @@ footer{
 @media screen and (max-width:768px) {
     .image__logo{   
         max-width: 100px;
-        width: 100%;
-        
+        width: 100%;        
     } 
     
 }

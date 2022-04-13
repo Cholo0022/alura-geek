@@ -30,6 +30,7 @@
    display: inline-block;  
    max-width: 182px;
    width: 100%;
+   text-align: center;
 }
 
 .head__btn-login button{
@@ -114,9 +115,11 @@
         display: none;
     }
 
-    .head__btn-login button{
-        max-width: 133px;
-        width: 100%;
+    .head__btn-login button{    
+        width: 133px;
+        height: 40px;
+        line-height: 0px;
+        text-align: center;
     }
 
     .lupa{

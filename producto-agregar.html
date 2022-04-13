@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/producto-agregar.css">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <img src="images/Logo.svg" alt="Logo de Alura Geek" class="image__logo" />
+                </div>
+                <div class="head__search">
+                    <input type="text" name="buscador" id="buscador" placeholder="¿Que desea buscar?" />
+                    <img src="images/Icone-search.svg" alt="Lupa del buscador" />
+                </div>
+                <div class="head__btn-login">
+                    <button>Login</button>
+                </div>
+                <div class="lupa">
+                    <img src="images/Icone-search.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div class="container">
+
+                <div class="agregar__producto">
+                    <h2>Agregar nuevo producto</h2>
+                    <div class="carga__producto">
+                        <div class="arrastrar__imagen">
+                            <div class="icono__agregar"></div>
+                            <p class="arrastrar">Arrastre para agregar una imagen para el producto</p>
+                            <p class="agregar__mobile">Agregar una imagen para el producto</p>
+                        </div>
+                        <p class="opcion">o</p>
+                        <div class="computador__imagen"> <button>Busque en su computador</button></div>
+                    </div>
+                    <form action="#" class="formulario__producto">
+                        <label for="nombre_producto">Nombre del producto</label>
+                        <input type="text" name="" id="nombre_producto" placeholder="">
+                        <label for="precio">Precio del producto</label>
+                        <input type="text" name="" id="precios">
+                        <label for="descripcion">Descripcion del producto</label>
+                        <input type="text" name="" id="descripcion">
+                        <button>Agregar producto</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="formulario__rodapie">
+
+            <div class="logo">
+                <img src="images/Logo.svg" alt="Logo de Alura Geek" class="image__logo" />
+            </div>
+            <div class="link">
+                <a href="#">Quienes somos</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Programa de fidelidad</a>
+                <a href="#">Nustras Tiendas</a>
+                <a href="#">Quiero ser franquicia</a>
+                <a href="#">Anuncie aquí</a>
+            </div>
+
+            <div class="contacto">
+                <h3>Hablo con nosotros</h3>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Andrés Bozzani">
+                <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                <button>Enviar mensaje</button>
+            </div>
+            </div>
+        </section>
+        </div>
+        <div class="rodapie">
+            &copy; Copyright Andrés A. Bozzani
+            <p>2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
