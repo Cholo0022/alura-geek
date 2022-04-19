@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/login.css">
+
     <title>Alura Geek</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,9 +43,14 @@
             <div class="container">
                 <div class="login">
                     <h2>Inicio Sesión</h2>
-                    <form action="#" class="login__formulario">
-                        <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico">
-                        <input type="password" name="pass" id="pass" placeholder="Escriba su contraseña">
+                    <form action="in" class="login__formulario">
+                        <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico" required
+                            data-tipo="email">
+
+                        <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
+                            required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                            data-tipo="password">
+
                         <button>Entrar</button>
                     </form>
                 </div>
@@ -67,11 +73,17 @@
             </div>
 
             <div class="contacto">
-                <h3>Hablo con nosotros</h3>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Andrés Bozzani">
-                <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                <button>Enviar mensaje</button>
+                <h3>Hable con nosotros</h3>
+                <form action="">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Juan Perez" required data-tipo="nombre">
+                    <span class="input-message-error">Este campo no es valido</span>
+
+                    <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escriba su mensaje" required
+                        maxlength="120" data-tipo="mensaje"></textarea>
+                    <span class="input-message-error">Este campo no es valido</span>
+                    <button>Enviar mensaje</button>
+                </form>
             </div>
             </div>
         </section>
@@ -81,6 +93,8 @@
             <p>2022</p>
         </div>
     </footer>
+
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>

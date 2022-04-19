@@ -19,11 +19,16 @@
     line-height: 38px;
 }
 
-.header__section a {
+.ver__todo{
     margin-left: auto;
-    margin-right: 8px;
+    cursor: pointer;
     color: #2A7AE4;
+    display: flex;
 }
+
+.header__section a {
+    margin-right: 8px;
+} 
 
 .linea_productos{
     display: flex;

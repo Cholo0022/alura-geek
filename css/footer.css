@@ -83,6 +83,7 @@ footer .logo{
     border: none;
     max-width: 144px;
     width: 100%;
+    cursor: pointer;
 }
 
 .rodapie{
