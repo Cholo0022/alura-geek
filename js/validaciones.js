@@ -1,6 +1,7 @@
 export function valida(input) {
   const tipoDeInput = input.dataset.tipo;
 
+  // console.log(tipoDeInput);
   if (input.validity.valid) {
     input.parentElement.classList.remove("input-container--invalid");
     input.parentElement.querySelector(".input-message-error").innerHTML = "";
@@ -28,17 +29,16 @@ const mensajesDeError = {
   },
   password: {
     valueMissing: "El campo contraseña no puede estar vacío",
-    patternMismatch:
-      "Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.",
+    patternMismatch: "Mínimo ocho caracteres, al menos una letra y un número.",
   },
 
   mensaje: {
-    valueMissing: "Este campo no puede estar vacío",
+    valueMissing: "Este campo mensaje no puede estar vacío",
     patternMismatch: "Elmensaje debe contener hasta 120 caracteres.",
   },
 };
 
-function mostrarMensajeDeError(tipoDeInput, input) {
+function mostrarMensajeDeError(tipoDeInput, input, textarea) {
   let mensaje = "";
   tipoDeErrores.forEach((error) => {
     if (input.validity[error]) {

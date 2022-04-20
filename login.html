@@ -43,14 +43,17 @@
             <div class="container">
                 <div class="login">
                     <h2>Inicio Sesión</h2>
-                    <form action="in" class="login__formulario">
-                        <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico" required
-                            data-tipo="email">
-
-                        <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
-                            required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
-                            data-tipo="password">
-
+                    <form action="producto-agregar.html" class="login__formulario">
+                        <div class="input-container">
+                            <input type="email" name="email" id="email" class="input"
+                                placeholder="Escriba su correo electrónico" required data-tipo="email">
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
+                                required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" data-tipo="password">
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
                         <button>Entrar</button>
                     </form>
                 </div>
@@ -75,19 +78,23 @@
             <div class="contacto">
                 <h3>Hable con nosotros</h3>
                 <form action="">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Juan Perez" required data-tipo="nombre">
-                    <span class="input-message-error">Este campo no es valido</span>
-
-                    <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escriba su mensaje" required
-                        maxlength="120" data-tipo="mensaje"></textarea>
-                    <span class="input-message-error">Este campo no es valido</span>
+                    <div class="input-container">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Juan Perez" required
+                            data-tipo="nombre">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensaje" id="mensaje" rows="10" class="input" placeholder="Escriba su mensaje"
+                            required maxlength="120" data-tipo="mensaje"></textarea>
+                        <span class="textarea-mensagem-erro">Este campo no es valido</span>
+                    </div>
                     <button>Enviar mensaje</button>
                 </form>
             </div>
-            </div>
+
         </section>
-        </div>
+
         <div class="rodapie">
             &copy; Copyright Andrés A. Bozzani
             <p>2022</p>

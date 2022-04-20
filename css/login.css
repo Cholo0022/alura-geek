@@ -1,5 +1,4 @@
 .login {
-    
     max-width: 423px;
     width: 100%;
     margin: 64px auto;
@@ -19,11 +18,11 @@
 }
 
 .login__formulario input{
-    margin: 24px 0px;
-    
+    margin: 24px 0px;  
     padding: 12px 16px;
     border-radius: 4px;
     border: none;
+    width: 100%;
 }
 
 .login__formulario button{
@@ -44,39 +43,31 @@
   }
   
   .input-container--invalid .input {
-    border: 1px solid red;
+    border: 1px solid #df2525;
     border-radius: 7px;
+    width: 100%;
   }
   
-  .input-container--invalid .input-label {
-    color: red;
-  }
-  
+
   .input-message-error {
     display: none;
   }
   
   .input-container--invalid .input-message-error {
-    color: red;
+    color: #df2525;
     display: block;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
+    width: 100%;
   }
   
- /* .textarea {
+ .textarea {
     box-sizing: border-box;
     border: 1px solid blue;
     padding: 0.5rem;
     border-radius: 7px;
     width: 100%;
     min-height: 3rem;
-  }
-  
-  .textarea-container {
-    position: relative;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: var(--font-weigth-input);
   }
   
   .textarea::placeholder {
@@ -87,31 +78,16 @@
     outline: none;
   }
   
-  .textarea-label {
-    position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    font-size: var(--font-size-input-label);
-    transition: all 0.25s;
-  }
-  
-  .textarea:not(:placeholder-shown) + .textarea-label,
-  .textarea:focus + .textarea-label {
-    font-size: 0.875rem;
-    top: -1.25rem;
-    transition: all 0.25s;
-  }
-  
   .textarea-container--invalid {
     margin-bottom: 0.5rem;
   }
   
   .textarea-container--invalid .textarea {
-    border: 1px solid var(--warning-color);
+    border: 1px solid #df2525;
   }
   
   .textarea-container--invalid .textarea-label {
-    color: var(--warning-color);
+    color: #df2525;
   }
   
   .textarea-mensagem-erro {
@@ -120,8 +96,8 @@
   
   .textarea-container--invalid .textarea-mensagem-erro {
     display: block;
-    color: var(--warning-color);
+    color: #df2525;
     margin-top: 0.5rem;
     padding-left: 0.5rem;
   } 
-   */
+  
