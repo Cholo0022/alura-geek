@@ -1,5 +1,4 @@
 .login {
-    
     max-width: 423px;
     width: 100%;
     margin: 64px auto;
@@ -19,11 +18,11 @@
 }
 
 .login__formulario input{
-    margin: 24px 0px;
-    
+    margin: 24px 0px;  
     padding: 12px 16px;
     border-radius: 4px;
     border: none;
+    width: 100%;
 }
 
 .login__formulario button{
@@ -36,3 +35,69 @@
     line-height: 21px;
     margin: 24px 0px;
 }
+
+/* ********************************** */
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .input {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+    width: 100%;
+  }
+  
+
+  .input-message-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: #df2525;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
+  }
+  
+ .textarea {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    padding: 0.5rem;
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+  }
+  
+  .textarea::placeholder {
+    visibility: hidden;
+  }
+  
+  .textarea:focus {
+    outline: none;
+  }
+  
+  .textarea-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .textarea-container--invalid .textarea {
+    border: 1px solid #df2525;
+  }
+  
+  .textarea-container--invalid .textarea-label {
+    color: #df2525;
+  }
+  
+  .textarea-mensagem-erro {
+    display: none;
+  }
+  
+  .textarea-container--invalid .textarea-mensagem-erro {
+    display: block;
+    color: #df2525;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  } 
+  
