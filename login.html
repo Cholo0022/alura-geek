@@ -68,9 +68,17 @@
 
             <div class="contacto">
                 <h3>Hablo con nosotros</h3>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Andrés Bozzani">
-                <textarea name="mensaje" id="mensaje" rows="10" placeholder="Escribe tu mensaje"></textarea>
+            
+                <div class="input-container">
+                    <label for="nombre">Nombre</label>
+                    <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
+                    <span class="input-mensaje-error">Este campo no es valido</span>
+                </div>
+                <div class="input-container">
+                    <textarea name="mensaje" id="mensaje" class="input" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje" maxlength="120"></textarea>
+                    <span class="input-mensaje-error">Este campo no es valido</span>
+                </div>
+                
                 <button>Enviar mensaje</button>
             </div>
             </div>
@@ -81,6 +89,8 @@
             <p>2022</p>
         </div>
     </footer>
+
+    <script src="js/app.js" type="module"></script>
 </body>
 
 </html>
