@@ -43,7 +43,7 @@
 
                 <div class="agregar__producto">
                     <h2>Agregar nuevo producto</h2>
-                    <form action="" class="formulario__producto">
+                    <form action="" class="formulario__producto" enctype="multipart/form-data">
                         <div class="carga__producto">
                             <div class="arrastrar__imagen">
                                 <div class="icono__agregar"></div>
@@ -51,11 +51,12 @@
                                 <p class="agregar__mobile">Agregar una imagen para el producto</p>
                             </div>
                             <p class="opcion">o</p>
-                            <div class="computador">
-                            <button>Busque en su computador
-                                <input type="file" name="computador" >
-                            </button>
-                            </div>
+                            <input type="file" class="custom-file-input">
+                            <!-- <span class="mi-archivo">
+                                <input type="file" class="file" name="mi-archivo" id="mi-archivo">
+                            </span>
+                            <label for="mi-archivo"><span>Busque en su computador</span></label> -->
+
                         </div>
                         <div class="input-container">
                             <label for="nombre">Nombre del producto</label>
