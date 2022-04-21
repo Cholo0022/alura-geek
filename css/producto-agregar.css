@@ -54,14 +54,44 @@
     max-width: 229px;
 }
 
-.computador__imagen button{
+/* .computador__imagen button{
     width: 100%;
     padding: 16px;
     margin: 0px 8px;
     border: 1px solid #2A7AE4;
     box-sizing: border-box;
     color: #2A7AE4;
-}
+} */
+
+.computador {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .computador::before {
+    background-color: #5678EF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Busque en su computador'; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+  }
+  
+  .computador input[type="file"] {
+    opacity: 0;
+    display: inline-block;
+ 
+
+  }
+
 
 .formulario__producto{
     display: flex;

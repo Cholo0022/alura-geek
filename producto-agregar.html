@@ -43,23 +43,40 @@
 
                 <div class="agregar__producto">
                     <h2>Agregar nuevo producto</h2>
-                    <div class="carga__producto">
-                        <div class="arrastrar__imagen">
-                            <div class="icono__agregar"></div>
-                            <p class="arrastrar">Arrastre para agregar una imagen para el producto</p>
-                            <p class="agregar__mobile">Agregar una imagen para el producto</p>
+                    <form action="" class="formulario__producto">
+                        <div class="carga__producto">
+                            <div class="arrastrar__imagen">
+                                <div class="icono__agregar"></div>
+                                <p class="arrastrar">Arrastre para agregar una imagen para el producto</p>
+                                <p class="agregar__mobile">Agregar una imagen para el producto</p>
+                            </div>
+                            <p class="opcion">o</p>
+                            <div class="computador">
+                            <button>Busque en su computador
+                                <input type="file" name="computador" >
+                            </button>
+                            </div>
                         </div>
-                        <p class="opcion">o</p>
-                        <div class="computador__imagen"> <button>Busque en su computador</button></div>
-                    </div>
-                    <form action="#" class="formulario__producto">
-                        <label for="nombre_producto">Nombre del producto</label>
-                        <input type="text" name="" id="nombre_producto" placeholder="">
-                        <label for="precio">Precio del producto</label>
-                        <input type="text" name="" id="precios">
-                        <label for="descripcion">Descripcion del producto</label>
-                        <input type="text" name="" id="descripcion">
-                        <button>Agregar producto</button>
+                        <div class="input-container">
+                            <label for="nombre">Nombre del producto</label>
+                            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="20">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        
+                        <div class="input-container">
+                            <label for="precio">Precio del producto</label>
+                            <input name="precio" id="precio" class="input" type="text" pattern="^\d+$" placeholder="Precio" required data-tipo="precio" maxlength="20">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="nombre">Descripción del producto</label>
+                            <input name="descripcion" id="descripcion" class="input" type="text" placeholder="descripcion" required data-tipo="descripcion" maxlength="150">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        
+                        <button type="submit">Agregar producto</button>
+                        
                     </form>
                 </div>
             </div>
