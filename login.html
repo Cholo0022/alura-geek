@@ -47,12 +47,12 @@
                         <div class="input-container">
                             <input type="email" name="email" id="email" class="input"
                                 placeholder="Escriba su correo electrónico" required data-tipo="email">
-                            <span class="input-message-error">Este campo no es valido</span>
+                            <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
                         <div class="input-container">
                             <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
                                 required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" data-tipo="password">
-                            <span class="input-message-error">Este campo no es valido</span>
+                            <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
                         <button>Entrar</button>
                     </form>
@@ -77,20 +77,21 @@
 
             <div class="contacto">
                 <h3>Hablo con nosotros</h3>
+                <form action="">
+                    <div class="input-container">
+                        <label for="nombre">Nombre</label>
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
+                        <span class="input-mensaje-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea name="mensaje" id="mensaje" class="input" rows="10" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje" maxlength="120"></textarea>
+                        <span class="input-mensaje-error">Este campo no es valido</span>
+                    </div>
+                    
+                    <button>Enviar mensaje</button>
+                </form>
+            </div>
             
-                <div class="input-container">
-                    <label for="nombre">Nombre</label>
-                    <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
-                    <span class="input-mensaje-error">Este campo no es valido</span>
-                </div>
-                <div class="input-container">
-                    <textarea name="mensaje" id="mensaje" class="input" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje" maxlength="120"></textarea>
-                    <span class="input-mensaje-error">Este campo no es valido</span>
-                </div>
-                
-                <button>Enviar mensaje</button>
-            </div>
-            </div>
 
         </section>
 
