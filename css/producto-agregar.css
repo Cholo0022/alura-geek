@@ -54,10 +54,10 @@
     max-width: 229px;
 }
 
-.custom-file-input::-webkit-file-upload-button {
+.file-input::-webkit-file-upload-button {
     visibility: hidden;
     }
-    .custom-file-input::before {
+    .file-input::before {
     content: 'Busque en su computador';
     display: inline-block;
     color: #2A7AE4;
@@ -145,7 +145,7 @@
     }
 
     .carga__producto p{
-        ont-size: 14px;
+        font-size: 14px;
         line-height: 20px;
         margin: 16px 0;
     }
