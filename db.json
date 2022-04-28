@@ -1,0 +1,134 @@
+{
+  "producto": [
+    {
+      "url": "/images/consola.svg",
+      "nombre": "Consola 1",
+      "precio": 60,
+      "id": 1,
+      "tipo": "consola"
+    },
+    {
+      "url": "/images/consola1.svg",
+      "nombre": "Consola 2",
+      "precio": 60,
+      "id": 2,
+      "tipo": "consola"
+    },
+    {
+      "url": "/images/consola2.svg",
+      "nombre": "Consola 3",
+      "precio": 60,
+      "id": 3,
+      "tipo": "consola"
+    },
+    {
+      "url": "/images/consola3.svg",
+      "nombre": "Consola 4",
+      "precio": 60,
+      "id": 4,
+      "tipo": "consola"
+    },
+    {
+      "url": "/images/consola4.svg",
+      "nombre": "Consola 5",
+      "precio": 60,
+      "id": 5,
+      "tipo": "consola"
+    },
+    {
+      "url": "/images/consola5.svg",
+      "nombre": "Consola 6",
+      "precio": 60,
+      "id": 6,
+      "tipo": "consola"
+    },   
+    {
+      "url": "/images/star-wars1.svg",
+      "nombre": "Producto XYZ1",
+      "precio": 60,
+      "id": 7,
+      "tipo": "Star-Wars"
+    },
+    {
+      "url": "/images/star-wars2.svg",
+      "nombre": "Producto XYZ2",
+      "precio": 60,
+      "id": 8,
+      "tipo": "Star-Wars"
+    },
+    {
+      "url": "/images/star-wars3.svg",
+      "nombre": "Producto XYZ3",
+      "precio": 60,
+      "id": 9,
+      "tipo": "Star-Wars"
+    },
+    {
+      "url": "/images/star-wars4.svg",
+      "nombre": "Producto XYZ4",
+      "precio": 60,
+      "id": 10,
+      "tipo": "Star-Wars"
+    },
+    {
+      "url": "/images/star-wars5.svg",
+      "nombre": "Producto XYZ5",
+      "precio": 60,
+      "id": 11,
+      "tipo": "Star-Wars"
+    },
+    {
+      "url": "/images/star-wars6.svg",
+      "nombre": "Producto XYZ6",
+      "precio": 60,
+      "id": 12,
+      "tipo": "Star-Wars"
+    },
+
+
+
+    {
+      "url": "/images/diverso.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    },
+    {
+      "url": "/images/diverso1.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    },
+    {
+      "url": "/images/diverso2.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    },
+    {
+      "url": "/images/diverso.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    },
+    {
+      "url": "/images/diverso4.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    },
+    {
+      "url": "/images/diverso5.svg",
+      "nombre": "Diverso XYZ",
+      "precio": 60,
+      "id": 6,
+      "tipo": "Diverso"
+    }
+
+  ]
+}
