@@ -43,7 +43,7 @@
 
                 <div class="agregar__producto">
                     <h2>Agregar nuevo producto</h2>
-                    <form action="" class="formulario__producto" enctype="multipart/form-data">
+                    <form class="formulario__producto" data-form>
                         <div class="carga__producto">
                             <div class="arrastrar__imagen"
                             id="draggable-1"
@@ -54,24 +54,24 @@
                                 <p class="agregar__mobile">Agregar una imagen para el producto</p>
                             </div>
                             <p class="opcion">o</p>
-                            <input type="file" class="file-input" required>
+                            <input type="file" class="file-input" data-tipo="img" id="img">
                         
                         </div>
                         <div class="input-container">
                             <label for="nombre">Nombre del producto</label>
-                            <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="20">
+                            <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" data-tipo="nombre" maxlength="20" required>
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
                         
                         <div class="input-container">
                             <label for="precio">Precio del producto</label>
-                            <input name="precio" id="precio" class="input" type="text" pattern="^\d+$" placeholder="Precio" required data-tipo="precio" maxlength="20">
+                            <input name="precio" id="precio" class="input" type="text" pattern="^\d+$" placeholder="Precio" data-tipo="precio" maxlength="20" required >
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
 
                         <div class="input-container">
-                            <label for="nombre">Descripción del producto</label>
-                            <input name="descripcion" id="descripcion" class="input" type="text" placeholder="descripcion" required data-tipo="descripcion" maxlength="150">
+                            <label for="descripcion">Descripción del producto</label>
+                            <input name="descripcion" id="descripcion" class="input" type="text" placeholder="descripcion" data-tipo="descripcion" maxlength="150" required>
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
                         
@@ -99,7 +99,7 @@
 
             <div class="contacto">
                 <h3>Hablo con nosotros</h3>
-                <form action="">
+                <form >
                     <div class="input-container">
                         <label for="nombre">Nombre</label>
                         <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
@@ -120,6 +120,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="control/registro.producto.js"></script>
     <script src="js/app.js" type="module"></script>
 </body>
 
