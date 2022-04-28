@@ -1,3 +1,5 @@
+import { productoServices } from "../js/productos.service.js";
+
 const crearNuevaLinea = (url, nombre, precio, tipo)=>{
     const linea = document.createElement("div");
     const contenido = `
@@ -14,17 +16,9 @@ const crearNuevaLinea = (url, nombre, precio, tipo)=>{
 
 const starWars = document.querySelector("[data-starWars]");
 const consola = document.querySelector("[data-consolas]");
-const diverso = document.querySelector("[data-diversos]")
+const diverso = document.querySelector("[data-diversos]");
 
-const http = new XMLHttpRequest();
-
-http.open("GET", "http://localhost:3000/producto");
-
-http.send();
-
-http.onload = ()=>{
-    const data = JSON.parse(http.response);
-    console.log(data);
+productoServices.listaProductos().then((data) => {
     data.forEach(producto => {
         if (producto.tipo === "consola"){
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
@@ -39,4 +33,4 @@ http.onload = ()=>{
             diverso.appendChild(nuevaLinea);
         }
     });
-}
+}).catch((error) => alert("Ocurrió un error"));
