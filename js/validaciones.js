@@ -1,7 +1,8 @@
 export function valida(boxes) {
+  // console.log(boxes);
   const tipoDeInput = boxes.dataset.tipo;
-// console.log(boxes.value)
-// console.log(tipoDeInput)
+  // console.log(boxes.value);
+  // console.log(tipoDeInput);
   if (boxes.validity.valid) {
     boxes.parentElement.classList.remove("input-container--invalid");
     boxes.parentElement.querySelector(".input-mensaje-error").innerHTML = "";
@@ -38,15 +39,12 @@ const mensajesDeError = {
 
   precio: {
     valueMissing: "El campo precio no puede estar vacío",
-    patternMismatch:
-      "Solo puede ingresar números",
+    patternMismatch: "Solo puede ingresar números",
   },
   descripcion: {
     valueMissing: "El campo Descripción no puede estar vacío",
-    patternMismatch:
-      "Solo puede ingresar hasta 150 caracteres",
+    patternMismatch: "Solo puede ingresar hasta 150 caracteres",
   },
-  
 };
 
 function mostrarMensajeDeError(tipoDeInput, boxes) {

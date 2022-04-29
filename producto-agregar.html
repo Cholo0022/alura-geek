@@ -45,38 +45,45 @@
                     <h2>Agregar nuevo producto</h2>
                     <form class="formulario__producto" data-form>
                         <div class="carga__producto">
-                            <div class="arrastrar__imagen"
-                            id="draggable-1"
-                            class="example-draggable"
-                            draggable="true">
+                            <div class="arrastrar__imagen" id="draggable-1" class="example-draggable" draggable="true">
                                 <div class="icono__agregar"></div>
                                 <p class="arrastrar">Arrastre para agregar una imagen para el producto</p>
                                 <p class="agregar__mobile">Agregar una imagen para el producto</p>
                             </div>
                             <p class="opcion">o</p>
                             <input type="file" class="file-input" data-tipo="img" id="img">
-                        
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+
                         </div>
                         <div class="input-container">
                             <label for="nombre">Nombre del producto</label>
-                            <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" data-tipo="nombre" maxlength="20" required>
+                            <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre"
+                                data-tipo="nombre" maxlength="20" required>
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
-                        
+
                         <div class="input-container">
                             <label for="precio">Precio del producto</label>
-                            <input name="precio" id="precio" class="input" type="text" pattern="^\d+$" placeholder="Precio" data-tipo="precio" maxlength="20" required >
+                            <input name="precio" id="precio" class="input" type="text" pattern="^\d+$"
+                                placeholder="Precio" data-tipo="precio" maxlength="20" required>
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
 
                         <div class="input-container">
                             <label for="descripcion">Descripción del producto</label>
-                            <input name="descripcion" id="descripcion" class="input" type="text" placeholder="descripcion" data-tipo="descripcion" maxlength="150" required>
+                            <input name="descripcion" id="descripcion" class="input" type="text"
+                                placeholder="descripcion" data-tipo="descripcion" maxlength="150" required>
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
-                        
+                        <label for="select">Tipo de Producto</label>
+                        <select name="select" id="tipo" required>
+                            <option value="">Elija una opción</option>
+                            <option value="starWars">Star Wars</option>
+                            <option value="consolas">Consolas</option>
+                            <option value="diversos">Diversos</option>
+                        </select>
                         <button type="submit">Agregar producto</button>
-                        
+
                     </form>
                 </div>
             </div>
@@ -99,17 +106,20 @@
 
             <div class="contacto">
                 <h3>Hablo con nosotros</h3>
-                <form >
+                <form>
                     <div class="input-container">
                         <label for="nombre">Nombre</label>
-                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre" maxlength="40">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
+                            data-tipo="nombre" maxlength="40">
                         <span class="input-mensaje-error">Este campo no es valido</span>
                     </div>
                     <div class="input-container">
-                        <textarea name="mensaje" id="mensaje" class="input" rows="10" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje" maxlength="120"></textarea>
+                        <textarea name="mensaje" id="mensaje" class="input" rows="10"
+                            placeholder="Escriba aquí su mensaje" required data-tipo="mensaje"
+                            maxlength="120"></textarea>
                         <span class="input-mensaje-error">Este campo no es valido</span>
                     </div>
-                    
+
                     <button>Enviar mensaje</button>
                 </form>
             </div>

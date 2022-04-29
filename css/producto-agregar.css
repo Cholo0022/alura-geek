@@ -99,6 +99,11 @@
     margin: 16px 0px;
 }
 
+select {
+    border: none;
+    color: #6B6B6B;
+}
+
 @media screen and (max-width:768px){
 
     .agregar__producto{
