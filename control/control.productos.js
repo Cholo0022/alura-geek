@@ -20,15 +20,15 @@ const diverso = document.querySelector("[data-diversos]");
 
 productoServices.listaProductos().then((data) => {
     data.forEach(producto => {
-        if (producto.tipo === "consola"){
+        if (producto.tipo === "consolas"){
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
             consola.appendChild(nuevaLinea);
         }
-        if (producto.tipo === "Star-Wars"){
+        if (producto.tipo === "starWars"){
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
             starWars.appendChild(nuevaLinea);
         }
-        if (producto.tipo === "Diverso"){
+        if (producto.tipo === "diversos"){
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
             diverso.appendChild(nuevaLinea);
         }

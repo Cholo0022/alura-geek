@@ -5,7 +5,7 @@
       "nombre": "Consola 1",
       "precio": "60",
       "descripcion": "Descripcion de consola 1",
-      "tipo": "consola",
+      "tipo": "consolas",
       "id": "1"
     },
     {
@@ -13,7 +13,7 @@
       "nombre": "Consola 2",
       "precio": "60",
       "descripcion": "Descripcion de consola 2",
-      "tipo": "consola",
+      "tipo": "consolas",
       "id": "2"
     },
     {
@@ -21,7 +21,7 @@
       "nombre": "Producto XYZ1",
       "precio": "60",
       "descripcion": "Descripcion de star wars 1",
-      "tipo": "Star-Wars",
+      "tipo": "star-Wars",
       "id": "7"
     },
     {
@@ -29,7 +29,7 @@
       "nombre": "Producto XYZ2",
       "precio": "60",
       "descripcion": "Descripcion de star wars 2",
-      "tipo": "Star-Wars",
+      "tipo": "star-Wars",
       "id": "8"
     },
     {
@@ -37,7 +37,7 @@
       "nombre": "Diverso XYZ",
       "precio": "60",
       "descripcion": "Descripcion de diverso 1",
-      "tipo": "Diverso",
+      "tipo": "diversos",
       "id": "5"
     },
     {
@@ -45,7 +45,7 @@
       "nombre": "Diverso XYZ",
       "precio": "60",
       "descripcion": "Descripcion de diverso 1",
-      "tipo": "Diverso",
+      "tipo": "diversos",
       "id": "6"
     },
     {
@@ -71,6 +71,22 @@
       "descripcion": "asada",
       "tipo": "consolas",
       "id": "99f9768b-2791-407a-9ad8-6b8a467a2872"
+    },
+    {
+      "url": "/images/star-wars5.svg",
+      "nombre": "Nuevo Star Wars",
+      "precio": "125",
+      "descripcion": "este es un nuevo producto",
+      "tipo": "starWars",
+      "id": "ed02ce62-4167-425b-a129-4e37022837f2"
+    },
+    {
+      "url": "/images/star-wars4.svg",
+      "nombre": "Otro Star wars ",
+      "precio": "1258",
+      "descripcion": "Este es otro star wars",
+      "tipo": "starWars",
+      "id": "87cc98cd-ca90-480b-b0a3-eec699706a7d"
     }
   ]
 }
