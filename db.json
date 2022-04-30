@@ -1,92 +1,156 @@
 {
   "producto": [
     {
+      "url": "/images/star-wars1.svg",
+      "nombre": "Star wars 1",
+      "precio": "1500",
+      "descripcion": "Star wars 1",
+      "tipo": "starWars",
+      "id": "fcf0d90b-8ca3-4a14-a7a3-7302213b15b3"
+    },
+    {
+      "url": "/images/star-wars2.svg",
+      "nombre": "Star wars 2",
+      "precio": "1501",
+      "descripcion": "Star wars 1",
+      "tipo": "starWars",
+      "id": "31eff1c1-6a9f-4c8d-9d14-8080d60e5fab"
+    },
+    {
+      "url": "/images/star-wars3.svg",
+      "nombre": "Star wars 3",
+      "precio": "1502",
+      "descripcion": "Star wars 3",
+      "tipo": "starWars",
+      "id": "d8d48400-0a84-479f-b7e1-603505d14399"
+    },
+    {
+      "url": "/images/star-wars4.svg",
+      "nombre": "Star wars 4",
+      "precio": "1503",
+      "descripcion": "Star wars 4",
+      "tipo": "starWars",
+      "id": "cc10fd14-7aec-4948-a986-95838725c575"
+    },
+    {
+      "url": "/images/star-wars5.svg",
+      "nombre": "Star wars 5",
+      "precio": "1504",
+      "descripcion": "Star wars 5",
+      "tipo": "starWars",
+      "id": "296db3dc-3c36-4256-9d46-15b965eeaa7b"
+    },
+    {
+      "url": "/images/star-wars6.svg",
+      "nombre": "Star wars 6",
+      "precio": "1505",
+      "descripcion": "Star wars 6",
+      "tipo": "starWars",
+      "id": "423a8413-5a36-4566-a902-c292600fea33"
+    },
+    {
       "url": "/images/consola.svg",
       "nombre": "Consola 1",
-      "precio": "60",
-      "descripcion": "Descripcion de consola 1",
+      "precio": "2000",
+      "descripcion": "Consola 1",
       "tipo": "consolas",
-      "id": "1"
+      "id": "b2448f06-0d6e-483b-82a2-944d1aa5db37"
     },
     {
       "url": "/images/consola1.svg",
       "nombre": "Consola 2",
-      "precio": "60",
-      "descripcion": "Descripcion de consola 2",
+      "precio": "2001",
+      "descripcion": "Consola 2",
       "tipo": "consolas",
-      "id": "2"
+      "id": "9a88448a-88a9-4b86-a2d8-28631ffe91c7"
     },
     {
-      "url": "/images/star-wars1.svg",
-      "nombre": "Producto XYZ1",
-      "precio": "60",
-      "descripcion": "Descripcion de star wars 1",
-      "tipo": "star-Wars",
-      "id": "7"
+      "url": "/images/consola2.svg",
+      "nombre": "Consola 3",
+      "precio": "2002",
+      "descripcion": "Consola 3",
+      "tipo": "consolas",
+      "id": "f54f4d2d-3362-4592-9401-ea7caecccc6b"
     },
     {
-      "url": "/images/star-wars2.svg",
-      "nombre": "Producto XYZ2",
-      "precio": "60",
-      "descripcion": "Descripcion de star wars 2",
-      "tipo": "star-Wars",
-      "id": "8"
+      "url": "/images/consola3.svg",
+      "nombre": "Consola 4",
+      "precio": "2003",
+      "descripcion": "Consola 4",
+      "tipo": "consolas",
+      "id": "27984a95-2e0b-4d65-8aae-165922ca3a17"
     },
     {
-      "url": "/images/diverso4.svg",
-      "nombre": "Diverso XYZ",
-      "precio": "60",
-      "descripcion": "Descripcion de diverso 1",
+      "url": "/images/consola4.svg",
+      "nombre": "Consola 5",
+      "precio": "2004",
+      "descripcion": "Consola 5",
+      "tipo": "consolas",
+      "id": "5b9e5036-00ca-4396-8415-4a61a1c27d06"
+    },
+    {
+      "url": "/images/consola5.svg",
+      "nombre": "Consola 6",
+      "precio": "2005",
+      "descripcion": "Consola 6",
+      "tipo": "consolas",
+      "id": "7f786205-732d-4add-9262-fd6b1f8ec444"
+    },
+    {
+      "url": "/images/diverso.svg",
+      "nombre": "Diverso 1",
+      "precio": "3000",
+      "descripcion": "Diverso 1",
       "tipo": "diversos",
-      "id": "5"
-    },
-    {
-      "url": "/images/diverso5.svg",
-      "nombre": "Diverso XYZ",
-      "precio": "60",
-      "descripcion": "Descripcion de diverso 1",
-      "tipo": "diversos",
-      "id": "6"
+      "id": "3185f3a1-14bd-4421-9e1c-55606d8ed671"
     },
     {
       "url": "/images/diverso1.svg",
-      "nombre": "Ludmila",
-      "precio": "90",
-      "descripcion": "aasas",
-      "tipo": "starWars",
-      "id": "1c1cf2a2-b0e4-4e9a-aae5-47186a10ec86"
+      "nombre": "Diverso 2",
+      "precio": "3001",
+      "descripcion": "Diverso 2",
+      "tipo": "diversos",
+      "id": "14e1afb8-86fa-4a9a-9a05-ee2c28671a8e"
     },
     {
-      "url": "/images/consola3.svg",
-      "nombre": "Andres",
-      "precio": "120",
-      "descripcion": "asadaddfafaf",
-      "tipo": "consolas",
-      "id": "3cb62669-b3cb-4b2b-b74e-711833e273ca"
+      "url": "/images/diverso2.svg",
+      "nombre": "Diverso 3",
+      "precio": "3002",
+      "descripcion": "Diverso 3",
+      "tipo": "diversos",
+      "id": "dd063654-d9a1-46df-8332-842bd8055dd0"
     },
     {
-      "url": "/images/consola3.svg",
-      "nombre": "Ludmila",
-      "precio": "120",
-      "descripcion": "asada",
-      "tipo": "consolas",
-      "id": "99f9768b-2791-407a-9ad8-6b8a467a2872"
+      "url": "/images/diverso3.svg",
+      "nombre": "Diverso 4",
+      "precio": "3003",
+      "descripcion": "Diverso 4",
+      "tipo": "diversos",
+      "id": "c98eb3c3-0d8e-4c75-a771-bb2b697b34ae"
     },
     {
-      "url": "/images/star-wars5.svg",
-      "nombre": "Nuevo Star Wars",
-      "precio": "125",
-      "descripcion": "este es un nuevo producto",
-      "tipo": "starWars",
-      "id": "ed02ce62-4167-425b-a129-4e37022837f2"
+      "url": "/images/diverso4.svg",
+      "nombre": "Diverso 5",
+      "precio": "3004",
+      "descripcion": "Diverso 5",
+      "tipo": "diversos",
+      "id": "debf034c-505e-4518-a51b-24fd738539e7"
     },
     {
-      "url": "/images/star-wars4.svg",
-      "nombre": "Otro Star wars ",
-      "precio": "1258",
-      "descripcion": "Este es otro star wars",
-      "tipo": "starWars",
-      "id": "87cc98cd-ca90-480b-b0a3-eec699706a7d"
+      "url": "/images/diverso5.svg",
+      "nombre": "Diverso 6",
+      "precio": "3005",
+      "descripcion": "Diverso 6",
+      "tipo": "diversos",
+      "id": "a851cd1b-c8e3-43bb-b9de-0b2a4ca4ac84"
+    },
+    {
+      "url": "/images/diverso.svg",
+      "nombre": "Diverso 7",
+      "precio": "3006",
+      "descripcion": "Diverso 7",
+      "tipo": "diversos",
+      "id": "57c9740a-a1bb-4e22-a167-adadabebb766"
     }
   ]
 }

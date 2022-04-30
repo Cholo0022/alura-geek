@@ -15,22 +15,30 @@ const crearNuevaLinea = (url, nombre, precio, tipo)=>{
 }
 
 const starWars = document.querySelector("[data-starWars]");
-const consola = document.querySelector("[data-consolas]");
-const diverso = document.querySelector("[data-diversos]");
+const consolas = document.querySelector("[data-consolas]");
+const diversos = document.querySelector("[data-diversos]");
+
+let contadorConsolas = 0;
+let contadorStarWars = 0;
+let contadorDiversos = 0;
 
 productoServices.listaProductos().then((data) => {
     data.forEach(producto => {
-        if (producto.tipo === "consolas"){
-            const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
-            consola.appendChild(nuevaLinea);
-        }
+        
         if (producto.tipo === "starWars"){
+            contadorStarWars=+1;
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
             starWars.appendChild(nuevaLinea);
         }
-        if (producto.tipo === "diversos"){
+        if (producto.tipo === "consolas"){
+            contadorConsolas=+1;
             const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
-            diverso.appendChild(nuevaLinea);
+            consolas.appendChild(nuevaLinea);
+        }
+        if ((producto.tipo === "diversos") && (diversos < 6)){
+            contadorDiversos+=1;
+            const nuevaLinea = crearNuevaLinea(producto.url, producto.nombre, producto.precio);
+            diversos.appendChild(nuevaLinea);
         }
     });
 }).catch((error) => alert("Ocurrió un error"));
