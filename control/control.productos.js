@@ -7,7 +7,7 @@ const crearNuevaLinea = (url, nombre, precio, tipo) => {
             <img src="${url}" alt="Imagen de consola" class="producto__imagen" />
             <p class="producto__nombre">${nombre}</p>
             <p class="producto__precio">${precio}</p>
-            <a href="../ver-todo.html">Ver Producto</a>
+            <a href="">Ver Producto</a>
         </div>`;
   linea.innerHTML = contenido;
   return linea;
@@ -16,7 +16,6 @@ const crearNuevaLinea = (url, nombre, precio, tipo) => {
 const starWars = document.querySelector("[data-starWars]");
 const consolas = document.querySelector("[data-consolas]");
 const diversos = document.querySelector("[data-diversos]");
-
 
 let contadorConsolas = 0;
 let contadorStarWars = 0;
