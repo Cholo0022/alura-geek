@@ -9,19 +9,11 @@ form.addEventListener("submit", (evento) => {
   const precio = document.getElementById("precio").value;
   const descripcion = document.getElementById("descripcion").value;
   const tipoProducto = document.getElementById("tipo").value;
-  console.log(
-    url,
-    " - ",
-    nombre,
-    " - ",
-    precio,
-    " - ",
-    descripcion,
-    " - ",
-    tipoProducto);
-  productoServices.crearProducto("/images/"+url, nombre, precio, descripcion, tipoProducto)
-  .then((respuesta) => {
-    console.log(respuesta);
-  })
-  .catch((err) => console.log(err));
+
+  productoServices
+    .crearProducto("/images/" + url, nombre, precio, descripcion, tipoProducto)
+    .then((respuesta) => {
+      console.log(respuesta);
+    })
+    .catch((err) => console.log(err));
 });

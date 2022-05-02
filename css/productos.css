@@ -1,4 +1,5 @@
 .galeria__productos {
+    display: flex;
     margin: auto;  
     padding: 0  0 64px 0;
 }
@@ -23,6 +24,14 @@
     margin-left: auto;
     cursor: pointer;
     color: #2A7AE4;
+    display: flex;
+}
+
+.ver__todo img{
+    margin-left: 5px;
+}
+
+.ver__todo a{
     display: flex;
 }
 
@@ -69,10 +78,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .producto:nth-child(5n){
+    .linea_productos div:nth-child(5){
         display: none;
     }
-    .producto:nth-child(6n){
+    .linea_productos div:nth-child(6){
         display: none;
     }
 
@@ -90,10 +99,10 @@
 }
 
 @media screen and (max-width: 360px){
-    .producto:nth-child(3n){
+    .linea_productos div:nth-child(3){
         display: none;
     }
-    .producto:nth-child(4n){
+    .linea_productos div:nth-child(4){
         display: none;
     }
 

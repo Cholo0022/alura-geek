@@ -1,8 +1,6 @@
 export function valida(boxes) {
-  // console.log(boxes);
   const tipoDeInput = boxes.dataset.tipo;
-  // console.log(boxes.value);
-  // console.log(tipoDeInput);
+
   if (boxes.validity.valid) {
     boxes.parentElement.classList.remove("input-container--invalid");
     boxes.parentElement.querySelector(".input-mensaje-error").innerHTML = "";

@@ -52,15 +52,15 @@
     max-width: 1440px;
     width: 100%;
     height: 352px;
-    display: flex;
-    justify-content: center;
 }
+
 .head__container-texto-btn{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: #ffffff;
 }
+
 
 .head__titulo{
     margin: 16px 0px;
