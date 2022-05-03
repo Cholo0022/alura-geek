@@ -1,28 +1,12 @@
 {
   "producto": [
     {
-      "url": "images/star-wars1.svg",
-      "nombre": "Star wars 1",
-      "precio": "1500",
-      "descripcion": "Star wars 1",
-      "tipo": "starWars",
-      "id": "fcf0d90b-8ca3-4a14-a7a3-7302213b15b3"
-    },
-    {
       "url": "images/star-wars2.svg",
       "nombre": "Star wars 2",
       "precio": "1501",
       "descripcion": "Star wars 2",
       "tipo": "starWars",
       "id": "31eff1c1-6a9f-4c8d-9d14-8080d60e5fab"
-    },
-    {
-      "url": "images/star-wars3.svg",
-      "nombre": "Star wars 3",
-      "precio": "1502",
-      "descripcion": "Star wars 3",
-      "tipo": "starWars",
-      "id": "d8d48400-0a84-479f-b7e1-603505d14399"
     },
     {
       "url": "images/star-wars4.svg",
@@ -135,14 +119,6 @@
       "descripcion": "Diverso 6",
       "tipo": "diversos",
       "id": "a851cd1b-c8e3-43bb-b9de-0b2a4ca4ac84"
-    },
-    {
-      "url": "images/diverso.svg",
-      "nombre": "Diverso 7",
-      "precio": "3006",
-      "descripcion": "Diverso 7",
-      "tipo": "diversos",
-      "id": "57c9740a-a1bb-4e22-a167-adadabebb766"
     },
     {
       "url": "images/star-wars6.svg",

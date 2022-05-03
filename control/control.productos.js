@@ -1,6 +1,6 @@
 import { productoServices } from "../js/productos.service.js";
 
-const crearNuevaLinea = (url, nombre, precio, tipo) => {
+const crearNuevaLinea = (url, nombre, precio, tipo, id) => {
   const linea = document.createElement("div");
   const contenido = `
         <div class="producto">
@@ -9,9 +9,17 @@ const crearNuevaLinea = (url, nombre, precio, tipo) => {
             <p class="producto__precio">${precio}</p>
             <a class="verProducto" href="">Ver Producto</a><br />
             <a class="modificar" href="">Modificar</a>
-            <a class="eliminar" href="">Eliminar</a>
+            <a class="eliminar" id="${id}" href="">Eliminar</a>
         </div>`;
   linea.innerHTML = contenido;
+  const btnEliminar = linea.querySelector(".eliminar");
+  btnEliminar.addEventListener("click", ()=>{
+    const id = btnEliminar.id;
+    productoServices.eliminarProducto(id).then((respuesta) =>{
+      console.log(respuesta);
+    })
+    .catch((err) => console.log("Ocurrió un error", err));
+  })
   return linea;
 };
 
@@ -56,7 +64,7 @@ productoServices
       }
     });
   })
-  .catch((error) => console.log("Ocurrió un error"));
+  .catch((err) => console.log("Ocurrió un error"));
 
 const verTodosProductos = document.querySelector("[data-verTodos]");
 productoServices
@@ -66,7 +74,9 @@ productoServices
       const nuevaLinea = crearNuevaLinea(
         producto.url,
         producto.nombre,
-        producto.precio
+        producto.precio,
+        producto.descripcion,
+        producto.id
       );
       verTodosProductos.appendChild(nuevaLinea);
     });
