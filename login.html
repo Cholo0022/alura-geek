@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="login">
                     <h2>Inicio Sesión</h2>
-                    <form action="producto-agregar.html" class="login__formulario">
+                    <form class="login__formulario">
                         <div class="input-container">
                             <input type="email" name="email" id="email" class="input"
                                 placeholder="Escriba su correo electrónico" required data-tipo="email">
@@ -54,7 +54,7 @@
                                 required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" data-tipo="password">
                             <span class="input-mensaje-error">Este campo no es valido</span>
                         </div>
-                        <button>Entrar</button>
+                        <button id="btnLogin">Entrar</button>
                     </form>
                 </div>
             </div>
@@ -103,7 +103,7 @@
             <p>2022</p>
         </div>
     </footer>
-
+    <script src="js/login.js"></script>
     <script src="js/app.js" type="module"></script>
 </body>
 

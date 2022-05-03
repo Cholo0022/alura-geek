@@ -11,7 +11,7 @@ form.addEventListener("submit", (evento) => {
   const tipoProducto = document.getElementById("tipo").value;
 
   productoServices
-    .crearProducto("/images/" + url, nombre, precio, descripcion, tipoProducto)
+    .crearProducto("images/" + url, nombre, precio, descripcion, tipoProducto)
     .then((respuesta) => {
       console.log(respuesta);
     })
