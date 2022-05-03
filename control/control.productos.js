@@ -7,7 +7,9 @@ const crearNuevaLinea = (url, nombre, precio, tipo) => {
             <img src="${url}" alt="Imagen de consola" class="producto__imagen" />
             <p class="producto__nombre">${nombre}</p>
             <p class="producto__precio">${precio}</p>
-            <a href="">Ver Producto</a>
+            <a class="verProducto" href="">Ver Producto</a><br />
+            <a class="modificar" href="">Modificar</a>
+            <a class="eliminar" href="">Eliminar</a>
         </div>`;
   linea.innerHTML = contenido;
   return linea;

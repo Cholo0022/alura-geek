@@ -77,6 +77,14 @@
     margin: 8px 0px;
 }
 
+.modificar{
+    display: none;
+}
+
+.eliminar{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .linea_productos div:nth-child(5){
         display: none;
