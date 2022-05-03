@@ -25,14 +25,6 @@
       "id": "296db3dc-3c36-4256-9d46-15b965eeaa7b"
     },
     {
-      "url": "images/consola.svg",
-      "nombre": "Consola 1",
-      "precio": "2000",
-      "descripcion": "Consola 1",
-      "tipo": "consolas",
-      "id": "b2448f06-0d6e-483b-82a2-944d1aa5db37"
-    },
-    {
       "url": "images/consola1.svg",
       "nombre": "Consola 2",
       "precio": "2001",
