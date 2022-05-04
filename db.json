@@ -1,22 +1,6 @@
 {
   "producto": [
     {
-      "url": "images/star-wars2.svg",
-      "nombre": "Star wars 2",
-      "precio": "1501",
-      "descripcion": "Star wars 2",
-      "tipo": "starWars",
-      "id": "31eff1c1-6a9f-4c8d-9d14-8080d60e5fab"
-    },
-    {
-      "url": "images/star-wars4.svg",
-      "nombre": "Star wars 4",
-      "precio": "1503",
-      "descripcion": "Star wars 4",
-      "tipo": "starWars",
-      "id": "cc10fd14-7aec-4948-a986-95838725c575"
-    },
-    {
       "url": "images/star-wars5.svg",
       "nombre": "Star wars 5",
       "precio": "1504",
@@ -127,6 +111,118 @@
       "descripcion": "Consola 55",
       "tipo": "consolas",
       "id": "91a6acd5-a631-4a97-b19e-2acd5cc2bced"
+    },
+    {
+      "url": "images/consola1.svg",
+      "nombre": "Star wars 2",
+      "precio": "1501",
+      "descripcion": "Star wars 2",
+      "tipo": "starWars",
+      "id": "ab4b5f00-76c3-415a-a8ee-697dbfeb2056"
+    },
+    {
+      "url": "images/star-wars3.svg",
+      "nombre": "Star wars xxxx",
+      "precio": "1502222",
+      "descripcion": "Star wars xxxx",
+      "tipo": "consolas",
+      "id": "ecf8837e-8311-4f43-824e-9eae2b38a514"
+    },
+    {
+      "url": "images/consola2.svg",
+      "nombre": "Star wars zzz",
+      "precio": "1502333",
+      "descripcion": "zzzz",
+      "tipo": "consolas",
+      "id": "3629ec6d-217b-43f6-9e2a-39ac7010c445"
+    },
+    {
+      "url": "images/consola4.svg",
+      "nombre": "Diverso 6",
+      "precio": "3005",
+      "descripcion": "Diverso 6",
+      "tipo": "diversos",
+      "id": "27ac84b7-5882-434c-a885-edbb0df3d7b1"
+    },
+    {
+      "url": "images/diverso.svg",
+      "nombre": "Diverso 6",
+      "precio": "3005",
+      "descripcion": "Diverso 6",
+      "tipo": "diversos",
+      "id": "0a944ac9-561d-4700-abde-a9a929ac89f4"
+    },
+    {
+      "url": "images/consola4.svg",
+      "nombre": "Diverso 6",
+      "precio": "3005",
+      "descripcion": "Diverso 6",
+      "tipo": "diversos",
+      "id": "46c00ca7-d6c9-461a-a226-319e016082b4"
+    },
+    {
+      "url": "images/consola1.svg",
+      "nombre": "consola",
+      "precio": "8888",
+      "descripcion": "consola",
+      "tipo": "consolas",
+      "id": "8c46a95c-9df2-4dc6-a3f8-a1d0cb666741"
+    },
+    {
+      "url": "images/consola.svg",
+      "nombre": "consola",
+      "precio": "999998888",
+      "descripcion": "Consola",
+      "tipo": "consolas",
+      "id": "2ef654bd-a075-4ca0-9fc1-3110a2dc4159"
+    },
+    {
+      "url": "images/star-wars6.svg",
+      "nombre": "Star wars 22222",
+      "precio": "99999",
+      "descripcion": "Star wars 222",
+      "tipo": "starWars",
+      "id": "ccbeff04-9aeb-4a39-bb34-1b49fb13891b"
+    },
+    {
+      "url": "images/consola.svg",
+      "nombre": "CONSOLA",
+      "precio": "77777",
+      "descripcion": "CONSOLA",
+      "tipo": "consolas",
+      "id": "1af0ed0f-8857-4733-9a1a-f3c4fb473151"
+    },
+    {
+      "url": "images/diverso.svg",
+      "nombre": "DIVERSOOOOO",
+      "precio": "00000",
+      "descripcion": "DIVERSOS",
+      "tipo": "diversos",
+      "id": "d6bd5719-15bd-44e9-bdc4-3316da315b20"
+    },
+    {
+      "url": "images/consola4.svg",
+      "nombre": "Star wars 44444",
+      "precio": "15034444",
+      "descripcion": "Star wars 4444",
+      "tipo": "starWars",
+      "id": "7781d694-e9b0-4554-96db-fa624a29f72b"
+    },
+    {
+      "url": "images/consola2.svg",
+      "nombre": "kkkkkkkkkkkk",
+      "precio": "66666666666666666",
+      "descripcion": "yyyyyyyyyyyyyyyy",
+      "tipo": "consolas",
+      "id": "c91e45d3-9431-4b10-a24b-c0037e7851af"
+    },
+    {
+      "url": "images/consola5.svg",
+      "nombre": "Consolita",
+      "precio": "00000111130",
+      "descripcion": "Consolito",
+      "tipo": "consolas",
+      "id": "9d8fd471-71f4-4eb4-ac7e-d47888d3ace4"
     }
   ]
 }

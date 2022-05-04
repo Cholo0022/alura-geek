@@ -25,12 +25,11 @@ const eliminarProducto = (id) => {
 };
 
 const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>
-    respuesta.json()
+  return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json()
   );
 };
 
-const actualizarProducto = (nombre, precio, descripcion, tipo, id) => {
+const actualizarProducto = (url, nombre, precio, descripcion, tipo, id) => {
   return fetch(`http://localhost:3000/producto/${id}`, {
     method: "PUT",
     headers: {

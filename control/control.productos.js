@@ -8,7 +8,7 @@ const crearNuevaLinea = (url, nombre, precio, tipo, id) => {
             <p class="producto__nombre">${nombre}</p>
             <p class="producto__precio">${precio}</p>
             <a class="verProducto" href="">Ver Producto</a><br />
-            <a class="modificar" href="producto-agregar.html?id=${id}">Modificar</a>
+            <a class="modificar" href="producto-modificar.html?id=${id}">Modificar</a>
             <a class="eliminar" id="${id}" href="">Eliminar</a>
         </div>`;
   linea.innerHTML = contenido;
