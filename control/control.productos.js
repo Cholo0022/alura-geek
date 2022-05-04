@@ -7,7 +7,7 @@ const crearNuevaLinea = (url, nombre, precio, tipo, id) => {
             <img src="${url}" alt="Imagen de consola" class="producto__imagen" />
             <p class="producto__nombre">${nombre}</p>
             <p class="producto__precio">${precio}</p>
-            <a class="verProducto" href="">Ver Producto</a><br />
+            <a class="verProducto" id="${id}" href="">Ver Producto</a><br />
             <a class="modificar" href="producto-modificar.html?id=${id}">Modificar</a>
             <a class="eliminar" id="${id}" href="">Eliminar</a>
         </div>`;
@@ -27,8 +27,8 @@ const starWars = document.querySelector("[data-starWars]");
 const consolas = document.querySelector("[data-consolas]");
 const diversos = document.querySelector("[data-diversos]");
 
-let contadorConsolas = 0;
 let contadorStarWars = 0;
+let contadorConsolas = 0;
 let contadorDiversos = 0;
 
 productoServices
@@ -66,19 +66,21 @@ productoServices
   })
   .catch((err) => console.log("Ocurrió un error"));
 
-const verTodosProductos = document.querySelector("[data-verTodos]");
-productoServices
-  .listaProductos()
-  .then((data) => {
-    data.forEach((producto) => {
-      const nuevaLinea = crearNuevaLinea(
-        producto.url,
-        producto.nombre,
-        producto.precio,
-        producto.descripcion,
-        producto.id
-      );
-      verTodosProductos.appendChild(nuevaLinea);
-    });
-  })
-  .catch((error) => console.log("Ocurrió un error"));
+
+  const verTodosProductos = document.querySelector("[data-verTodos]");
+
+  productoServices
+    .listaProductos()
+    .then((data) => {
+      data.forEach((producto) => {
+        const nuevaLinea = crearNuevaLinea(
+          producto.url,
+          producto.nombre,
+          producto.precio,
+          producto.descripcion,
+          producto.id
+        );
+        verTodosProductos.appendChild(nuevaLinea);
+      });
+    })
+    .catch((error) => console.log("Ocurrió un error"));
