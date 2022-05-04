@@ -119,6 +119,14 @@
       "descripcion": "asddasdadaddad",
       "tipo": "starWars",
       "id": "66603ce6-9f1e-4cef-9045-a9f6ac8fc333"
+    },
+    {
+      "url": "images/consola5.svg",
+      "nombre": "Consola 55",
+      "precio": "2055",
+      "descripcion": "Consola 55",
+      "tipo": "consolas",
+      "id": "91a6acd5-a631-4a97-b19e-2acd5cc2bced"
     }
   ]
 }
