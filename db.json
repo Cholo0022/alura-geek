@@ -143,6 +143,22 @@
       "descripcion": "Star Wars 2 borrado",
       "tipo": "starWars",
       "id": "c5c15cd5-49af-4c3b-98d1-bff2d36a56b1"
+    },
+    {
+      "url": "images/star-wars4.svg",
+      "nombre": "Star wars nuevo",
+      "precio": "124",
+      "descripcion": "Star wars nuevo",
+      "tipo": "starWars",
+      "id": "5a13d0ff-ba0c-476e-9f3a-29af8c345934"
+    },
+    {
+      "url": "images/diverso2.svg",
+      "nombre": "Duverso Nuevo",
+      "precio": "12",
+      "descripcion": "Diverso nuevo",
+      "tipo": "diversos",
+      "id": "5f4d7a27-aa90-4651-aa4e-cd5e22d5f1d9"
     }
   ]
 }

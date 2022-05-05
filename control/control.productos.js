@@ -29,16 +29,18 @@ const starWars = document.querySelector("[data-starWars]");
 const consolas = document.querySelector("[data-consolas]");
 const diversos = document.querySelector("[data-diversos]");
 
-let contadorStarWars = 0;
-let contadorConsolas = 0;
-let contadorDiversos = 0;
-
 productoServices
   .listaProductos()
   .then((data) => {
+    let contadorStarWars = 0;
+    let contadorConsolas = 0;
+    let contadorDiversos = 0;
+   
     data.forEach((producto) => {
+   
       if (producto.tipo === "starWars" && contadorStarWars < 6) {
-        contadorStarWars = +1;
+        console.log(contadorStarWars)
+        contadorStarWars = contadorStarWars + 1;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
@@ -46,8 +48,9 @@ productoServices
         );
         starWars.appendChild(nuevaLinea);
       }
+      console.log(contadorStarWars)
       if (producto.tipo === "consolas" && contadorConsolas < 6) {
-        contadorConsolas = +1;
+        contadorConsolas = contadorConsolas + 1;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
@@ -56,7 +59,7 @@ productoServices
         consolas.appendChild(nuevaLinea);
       }
       if (producto.tipo === "diversos" && contadorDiversos < 6) {
-        contadorDiversos += 1;
+        contadorDiversos = contadorDiversos + 1;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
