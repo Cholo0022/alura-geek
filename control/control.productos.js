@@ -40,7 +40,7 @@ productoServices
    
       if (producto.tipo === "starWars" && contadorStarWars < 6) {
         console.log(contadorStarWars)
-        contadorStarWars = contadorStarWars + 1;
+        contadorStarWars ++;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
@@ -50,7 +50,7 @@ productoServices
       }
       console.log(contadorStarWars)
       if (producto.tipo === "consolas" && contadorConsolas < 6) {
-        contadorConsolas = contadorConsolas + 1;
+        contadorConsolas ++;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
@@ -59,7 +59,7 @@ productoServices
         consolas.appendChild(nuevaLinea);
       }
       if (producto.tipo === "diversos" && contadorDiversos < 6) {
-        contadorDiversos = contadorDiversos + 1;
+        contadorDiversos ++;
         const nuevaLinea = crearNuevaLinea(
           producto.url,
           producto.nombre,
