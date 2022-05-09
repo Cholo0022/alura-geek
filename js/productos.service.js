@@ -1,8 +1,10 @@
 const listaProductos = () =>
-  fetch("http://localhost:3000/producto").then((response) => response.json());
+  fetch("https://app-alura-geek.herokuapp.com/producto").then((response) =>
+    response.json()
+  );
 
 const crearProducto = (url, nombre, precio, descripcion, tipo) => {
-  return fetch("http://localhost:3000/producto", {
+  return fetch("https://app-alura-geek.herokuapp.com/producto", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -19,18 +21,19 @@ const crearProducto = (url, nombre, precio, descripcion, tipo) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://app-alura-geek.herokuapp.com/producto/${id}`, {
     method: "DELETE",
   });
 };
 
 const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json()
+  return fetch(`https://app-alura-geek.herokuapp.com/producto/${id}`).then(
+    (respuesta) => respuesta.json()
   );
 };
 
 const actualizarProducto = (url, nombre, precio, descripcion, tipo, id) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://app-alura-geek.herokuapp.com/producto/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
