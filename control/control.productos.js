@@ -76,6 +76,27 @@ const verTodosProductos = document.querySelector("[data-verTodos]");
 productoServices
   .listaProductos()
   .then((data) => {
+    // EN CONSTRUCCION
+    // const buscador = document.querySelector("#buscador");
+    // buscador.addEventListener("keyup", ()=>{
+
+    //   const nuevoDato = data.filter((producto)=>{
+    //             // console.log(producto[nombre].nombre)
+    //     if (producto.nombre === buscador.value){
+
+    //       `
+    //     <li>
+    //         <span>${producto.nombre}</span>
+            
+    //     </li>
+    // `;
+    //       console.log(producto.nombre)
+    //       // console.log(buscador.value)
+          
+    //     }
+    //   })
+    // })
+
     data.forEach((producto) => {
       const nuevaLinea = crearNuevaLinea(
         producto.url,
