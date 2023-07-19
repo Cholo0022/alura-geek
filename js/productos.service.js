@@ -1,5 +1,5 @@
 const listaProductos = () =>
-  fetch("https://alura-geek-ms24.vercel.app/producto").then((response) =>
+  fetch("https://alura-geek-ms24-orcx2eg5m-cholo0022.vercel.app/?vercelToolbarCode=E2IVjpYkDEI9LT8/producto").then((response) =>
     response.json()
   );
 
