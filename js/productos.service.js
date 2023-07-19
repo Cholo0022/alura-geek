@@ -1,10 +1,10 @@
 const listaProductos = () =>
-  fetch("https://alura-geek-tabv.onrender.com/producto").then((response) =>
+  fetch("https://alura-geek-ms24.vercel.app/producto").then((response) =>
     response.json()
   );
 
 const crearProducto = (url, nombre, precio, descripcion, tipo) => {
-  return fetch("https://alura-geek-tabv.onrender.com/producto", {
+  return fetch("https://alura-geek-ms24.vercel.app/producto", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -21,19 +21,19 @@ const crearProducto = (url, nombre, precio, descripcion, tipo) => {
 };
 
 const eliminarProducto = (id) => {
-  return fetch(`https://alura-geek-tabv.onrender.com/producto/${id}`, {
+  return fetch(`https://alura-geek-ms24.vercel.app/${id}`, {
     method: "DELETE",
   });
 };
 
 const detalleProducto = (id) => {
-  return fetch(`https://alura-geek-tabv.onrender.com/producto/${id}`).then(
+  return fetch(`https://alura-geek-ms24.vercel.app/${id}`).then(
     (respuesta) => respuesta.json()
   );
 };
 
 const actualizarProducto = (url, nombre, precio, descripcion, tipo, id) => {
-  return fetch(`https://alura-geek-tabv.onrender.com/producto/${id}`, {
+  return fetch(`https://alura-geek-ms24.vercel.app/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
